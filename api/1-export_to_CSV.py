@@ -17,7 +17,7 @@ if __name__ == "__main__":
     with open(filename, "w") as f:
         for i in req_todo:
             f.write(
-                '"{}", "{}", "{}", "{}"\n'.format(
+                '"{}","{}","{}","{}"\n'.format(
                     employee_id,
                     username,
                     i["completed"],
