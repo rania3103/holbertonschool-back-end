@@ -23,4 +23,4 @@ if __name__ == "__main__":
                                                           len(req_todo)))
     for i in req_todo:
         if i["completed"]:
-            print("  {}".format(i["title"]))
+            print("\t {}".format(i["title"]))
