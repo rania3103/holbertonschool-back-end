@@ -1,0 +1,1 @@
+Variable annotations in Python provide a way to explicitly specify the types of variables. Introduced in PEP 526, variable annotations enhance code readability and can be used to provide additional information to static analysis tools.
